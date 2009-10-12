@@ -28,7 +28,7 @@ Add into your layout head
 h3. Add the tooltip function below in your text_field and give it the name of the id with the html
 
 <%= f.password_field :login %>
-<%= password_strength 'user_login', 'Type a short username all lowercase and use spaces for underscores' %>
+<%= tooltip 'user_login', 'Type a short username all lowercase and use spaces for underscores' %>
 
 h2. Digest It
 
